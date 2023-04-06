@@ -1,0 +1,7 @@
+!3 Welcome to [[FitNesse][FitNesse.FitNesse]]!
+!4 The fully integrated stand-alone acceptance testing framework and wiki.
+
+Suites:
+[[Admin][Admin]]
+
+!note Release ${FITNESSE_VERSION}

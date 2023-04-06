@@ -1,0 +1,28 @@
+---
+Test
+---
+| import |
+| admin/user-overview-fixture |
+
+Here is the following user overview feature for admin users. For each user in the system, this allows them to see:
+
+ * Name
+ * Rating
+ * Country
+ * Submission Date
+ * Verification status
+
+A design for this feature has been provided below
+
+!img -w 700 http://files/admin-user-overview-design.png 
+
+| User overview fixture |
+| Entry | getName?          | getRating? | getCountry?        | getSubmissionDate? | getVerificationStatus? |
+| 1     | Quinta Kertess    | 5          | Bolivia            | 16/02/2023         | Unverified             |
+| 2     | Lindsey Ezzell    | 4          | Czech Republic     | 30/05/2022         | Verified               |
+| 3     | Rosaleen Clemonts | 1          | Argentina          | 19/06/2022         | Unverified             |
+| 4     | Lemuel Shire      | 1          | United States      | 20/03/2023         | Unverified             |
+| 5     | Fraser Purkiss    | 1          | Sweden             | 20/03/2022         | Unverified             |
+| 6     | Hali Finnan       | 1          | China              | 11/02/2023         | Verified               |
+| 7     | Rebeka Slyford    | 2          | Thailand           | 07/02/2022         | Verified               |
+| 8     | Salim Blincoe     | 4          | China              | 02/01/2022         | Verified               |
