@@ -1,14 +1,6 @@
-export interface UserData {
-  id: string;
-  firstName: string;
-  lastName: string;
-  submissionDate: string;
-  country: string;
-  verified: boolean;
-  rating: number;
-}
+import {User} from "../admin/User";
 
-export const userData: UserData[] = [
+export const userData: User[] = [
   {
     id: '9da70cb8-4d17-4d79-ae93-8b6c47662c2c',
     firstName: 'Quinta',
