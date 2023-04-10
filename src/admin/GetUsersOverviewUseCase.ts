@@ -1,5 +1,5 @@
-import {User} from "./User";
-import {UserGateway} from "./UserGateway";
+import {User} from "../user/User";
+import {UserGateway} from "../user/UserGateway";
 import {UserOverview, VERIFICATION_STATUS} from "./UserOverview";
 import {DateConverter} from "../shared/time/DateConverter";
 

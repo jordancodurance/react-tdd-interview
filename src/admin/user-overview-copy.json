@@ -1,4 +1,9 @@
 {
+  "nameHeader": "Name",
+  "ratingHeader": "Rating",
+  "countryHeader": "Country",
+  "submissionDate": "Submission Date",
+  "verificationHeader": "Verification",
   "verifiedStatus": "Verified",
   "unverifiedStatus": "Unverified"
 }

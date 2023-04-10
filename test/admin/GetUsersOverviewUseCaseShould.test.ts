@@ -1,7 +1,7 @@
-import {UserGateway} from "../../src/admin/UserGateway";
+import {UserGateway} from "../../src/user/UserGateway";
 import {GetUsersOverviewUseCase} from "../../src/admin/GetUsersOverviewUseCase";
 import {VERIFICATION_STATUS} from "../../src/admin/UserOverview";
-import {User} from "../../src/admin/User";
+import {User} from "../../src/user/User";
 
 describe('Get users overview use case should', () => {
     test('translate users retrieved from gateway', async () => {

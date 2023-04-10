@@ -1,18 +1,10 @@
-import {userData} from '../../../src/data/userData';
-import {UserGateway} from "../../../src/admin/UserGateway";
 import {GetUsersOverviewUseCase} from "../../../src/admin/GetUsersOverviewUseCase";
 import {UserOverview} from "../../../src/admin/UserOverview";
-import {User} from "../../../src/admin/User";
+import {LocalUserGateway} from "../../../src/user/LocalUserGateway";
 
 export class UserOverviewFixture {
     private entry: number = -1;
-    private gateway = new class implements UserGateway {
-        getAll(): Promise<User[]> {
-            return new Promise<User[]>((resolve) => {
-                resolve(userData);
-            });
-        }
-    }
+    private gateway = new LocalUserGateway();
     private useCase = new GetUsersOverviewUseCase(this.gateway);
 
     public setEntry(entry: number) {
